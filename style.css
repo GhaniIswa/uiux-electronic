@@ -3,7 +3,7 @@
 }
 
 .icon {
-  background-color: transparent;
+  color: white;
   min-width: 40px;
   transition: 0.3s;
   padding: 8px;
@@ -11,10 +11,9 @@
 }
 
 .border{
-  border-radius: 12px;
+  border-radius: 20px;
 }
 
 .icon:hover {
-  background-color: cornflowerblue;
-  color: white;
+  background-color: #0a58ca !important;
 }
