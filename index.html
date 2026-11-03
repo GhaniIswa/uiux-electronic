@@ -13,28 +13,35 @@
   <body class="bg-light">
     <div class="min-vh-100 d-flex justify-content-center align-items-center">    
       <div class="wrapper">
-        <form action="">
+        <form id="loginForm" action="">
           <h1>Login</h1>
           <div class="input-box">
-            <input type="text" placeholder="Username" required>
+            <input type="text" id="username" placeholder="Username" required>
             <i class="bx bx-user"></i>
           </div>
+
           <div class="input-box">
-            <input type="password" placeholder="Password" required>
+            <input type="password" id="password" placeholder="Password" required>
             <i class="bx bx-lock-alt"></i>
           </div>
+
           <div class="remember-forgot">
             <label>
               <input type="checkbox"> Remember me
             </label>
             <a href="#">Forgot password?</a>
           </div>
+
           <button type="submit" class="btn">Login</button>
         </form>
+
         <div class="register-link">
           <p>Don't have an account? <a href="#">Register here</a></p>
         </div>
       </div>
     </div>
+
+    <script src="assets/js/loginscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
