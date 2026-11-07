@@ -1,4 +1,9 @@
 /* dashboard */
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
 .nav-link:hover {
   color: cornflowerblue !important;
 }
@@ -13,6 +18,10 @@
 
 .border{
   border-radius: 20px;
+}
+
+.border-bottom {
+  padding-bottom: 20px;
 }
 
 .icon:hover {
